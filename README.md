@@ -1,4 +1,4 @@
-# Nanoporous Surface Recombination — Feature Extraction & Deep-Learning Surrogate
+# Feature Extraction
 
 Code accompanying the paper:
 
@@ -30,16 +30,10 @@ nanodots.
    These features correspond to those listed in **Appendix II** of the
    manuscript.
 
-2. **Surrogate model** (`src/model/surrogate_model.py`)
-   A 4-layer dense network (128–96–64–32, then a single output) trained
-   with Adam + MSE and a held-out 10% validation split, matching Table 1
-   of the manuscript. Includes training-set-only feature normalization
-   (to prevent leakage), an R² metric, and a training/validation loss
-   curve plotter.
 
 3. **Example** (`examples/run_example.py`)
    A self-contained demo that builds synthetic 3D structures, extracts
-   features, and writes a feature table — runs with **no external data**.
+   features, and writes a feature table 
 
 ---
 
