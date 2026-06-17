@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Nanoporous Surface Recombination — Feature Extraction & DL Surrogate"
+authors:
+  - family-names: Tabassum
+    given-names: Farhin
+  - family-names: Hajimirza
+    given-names: Shima
+preferred-citation:
+  type: article
+  title: "Modeling Surface Recombination in Nanoporous Thin-Film Solar Cells Using Optical Transfer Matrix and Deep Learning"
+  authors:
+    - family-names: Tabassum
+      given-names: Farhin
+    - family-names: Hajimirza
+      given-names: Shima
+  journal: "Surfaces and Interfaces"
+  year: 2026
